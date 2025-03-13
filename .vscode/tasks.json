@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "/usr/bin/g++-12",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Main.cpp",
+                "-o",
+                "${workspaceFolder}/Main"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
