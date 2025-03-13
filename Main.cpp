@@ -465,11 +465,11 @@ int main(){
     Library&lib = Library:: getInstance();
     while(true){
         try{
-        cout << "> Welcome to the Library ";
-        cout << "> 1. Manage Books";
-        cout << "> 2. Manage Users";
-        cout << "> 3. Manage Transactions";
-        cout << "> 4. Exit";
+        cout << "> Welcome to the Library\n";
+        cout << "> 1. Manage Books\n";
+        cout << "> 2. Manage Users\n";
+        cout << "> 3. Manage Transactions\n";
+        cout << "> 4. Exit\n";
         cout << "> Please select from the following: ";
         
         int choice;
